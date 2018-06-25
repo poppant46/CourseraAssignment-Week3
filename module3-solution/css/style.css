@@ -1,0 +1,99 @@
+body
+{
+    font-size : 15px;
+}
+#header-nav
+{
+    background-color: gray;
+    border-radius: 0 ;
+    border : 2px solid black;   
+}
+.navbar-header .navbar-brand
+{
+    padding-top : 0;
+    margin-bottom: 20px;    
+}
+.navbar-header h1
+{
+    color : black;
+    font-weight: bold;
+    
+}
+#section-main-content
+{
+    background-color: gray;
+    height : 100% ;
+    margin-bottom: 50px;
+    padding: 0 15px 0 15px;
+}
+
+#content-title
+{
+    text-align : center;
+    font-size: 2em;
+    font-weight: 550;
+}
+#main-content > h2
+{
+font-weight: bold;
+margin-top: 0;
+padding-bottom: 20px;
+}
+#main-content 
+{
+    padding : 0;    
+}
+#section-main-content p
+{
+font-weight: 400;
+line-height: 1.5 ;
+font-size: 1.2em;
+
+}
+.navbar-header button.navbar-toggle , .icon-bar
+{
+    border : 2px solid black;
+    background-color: gray;
+}
+#nav-list
+{
+    margin-top : 0;
+    margin-bottom: 0;
+}
+#nav-list a
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    background-color: white;
+    
+}
+#nav-list li:nth-child(1)
+{
+    border : 2px solid black;
+    border-right: 0px;
+    border-left: 0px;
+}
+#nav-list li:nth-child(3)
+{
+    border : 2px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+@media(max-width : 830px)
+{
+    #section-main-content
+    {
+        
+        margin : 0 20px 0 20px;
+    }
+}
+@media(max-width : 991px)
+{
+    #section-main-content
+    {
+        height: 100%;
+        margin-bottom: 20px;
+    }
+}
